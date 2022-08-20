@@ -14,7 +14,7 @@ chk.addEventListener('change', () => {
   console.log("Checkbox is unchecked..");
   document.body.classList.toggle('light');
   document.getElementById("wrapper").style.backgroundColor = "black";
-  document.getElementById("toast").style.color = "white";
+  document.getElementById("toast").style.color ='red';
   }
 });
 
