@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+	box-sizing: border-box;
+}
+ 
+body{
+    background-color: white;
+  }
+
+  body.light {
+    background: black;
+  }
+  
+  .wrapper{
+    background-color: black;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 23px;
+    border-radius: 70px;
+  }
+  .wrapper.light{
+    background-color: white;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 23px;
+    border-radius: 70px;
+  }
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 15px;
+    width: 30px;
+    transform: scale(1.5);
+    float: right;
+    margin-right: 30px;
+  }
+  
+  .label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    height: 11px;
+    width: 11px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .label .ball {
+    transform: translateX(12px);
+  }
+  
+  
+  .fa-sun-bright {
+    color: #f1c40f;
+  }
+  
+  .moon {
+    height: 10px;
+    width: 10px;
+  }
+  .sun {
+    height: 10px;
+    width: 10px;
+  }
+  
+  /* .themeDarkIcon{
+   float: right;
+   border-radius: 10px;
+   border-color: white;
+  }
+ .themeDarkIcon:hover{
+   opacity: 50%;
+  }
+  .themeDarkIcon:active{
+    background-color: rgb(255, 255, 255);
+  }
+     */
+    
+  .toast{
+    color: rgb(255,42,42);
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  input {
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(47, 51, 50);
+    width: 250px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(101, 101, 101);
+    color: #fff;
+  }
+  
+  #clear-button {
+    color: #fff;
+    background-color: rgb(255, 42, 42);
+  }
+    
+  .theme-button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  .r{
+    margin: 10px;
+  }
