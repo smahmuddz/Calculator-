@@ -5,6 +5,9 @@
  
 body{
     background-color: white;
+    height: 700px;
+    width: 500px;
+    margin: auto;
   }
 
   body.light {
@@ -16,7 +19,7 @@ body{
     margin: auto;
     height: fit-content;
     width: fit-content;
-    padding: 23px;
+    padding: 20px;
     border-radius: 70px;
   }
   .wrapper.light{
